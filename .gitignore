@@ -1,16 +1,18 @@
-.DS_Store
-.dart_tool/
-lib/constants/api_secrets.dart
-key.jks
-android/key.properties
-.packages
-.pub/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-build/
+.DS_STORE
 
-.flutter-plugins
+# Jetbrains
 .idea/
-.vscode/
-play_store_graphics/
-flutter_build_runner_command
-notes
+*.iml
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
