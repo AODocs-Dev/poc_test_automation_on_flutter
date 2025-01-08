@@ -1,0 +1,13 @@
+    apiVersion: backstage.io/v1alpha1
+    kind: Component
+    metadata:
+      name: poc_test_automation_on_flutter
+      description: Github repository for poc_test_automation_on_flutter
+      annotations:
+        google.com/cloudbuild-project-slug: ao-docs-tools
+        github.com/project-slug: AODocs-Dev/poc_test_automation_on_flutter
+        sonarqube.org/project-key: AODocs-Dev_poc_test_automation_on_flutter
+    spec:
+      type: service
+      lifecycle: production
+      owner: group:default/developers
